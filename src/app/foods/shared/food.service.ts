@@ -9,35 +9,35 @@ export class FoodService {
   menu: Food[] = [
     {
       id: 1,
-      name: "Pollo asado",
-      description: "Pollo el valiente",
-      category: 'food',
-      image: 'https://www.paulinacocina.net/wp-content/uploads/2021/11/pollo-asado-1200x800.jpg',
-      price: 70
+      name: "Baguette de res",
+      description: "Baguete con queso y carne de res",
+      category: 'Comida',
+      image: 'https://www.recetasnestle.com.mx/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/1febb843b6cb8161261d1b3fe60e326c.jpg?itok=YUauEgvF',
+      price: 45
     },
     {
       id: 2,
-      name: 'pizza',
+      name: 'Pizza',
       description: 'Pepperoni',
-      category: 'food',
+      category: 'Comida',
       image: 'https://2trendies.com/hero/2023/04/pizzapepperoni.jpg?width=1200&aspect_ratio=16:9',
-      price: 234,
+      price: 199,
     },
     {
       id: 3,
       name: 'Hamburguesa',
-      description: 'La hamburguesa e chiapas :v',
-      category: 'food',
-      image: 'https://s3.abcstatics.com/media/gurmesevilla/2012/01/comida-rapida-casera.jpg',
-      price: 80,
+      description: 'Hamburguesa de res',
+      category: 'Comida',
+      image: 'https://editorialtelevisa.brightspotcdn.com/dims4/default/5591c0e/2147483647/strip/true/crop/1195x672+5+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ffa%2F68%2Fb5133d9f4eaf91738f36c7afcf59%2Fhamburguesas-estilo-texas-receta-facil-y-rapida.jpeg',
+      price: 55,
     },
     {
       id: 4,
-      name: 'Picadas de chiapas',
-      description: 'Una deliciosa comida.',
-      category: 'food',
-      image: 'https://isu.edu.mx/wp-content/uploads/2020/07/Sopes.jpg',
-      price: 30
+      name: 'Empanadas Yucatecas',
+      description: 'De queso de bola.',
+      category: 'Comida',
+      image: 'https://www.mexicoenmicocina.com/wp-content/uploads/2018/02/Empanadas-con-queso-fresco-1-500x500.jpg',
+      price: 15
     }
   ];
 
